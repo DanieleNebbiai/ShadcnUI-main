@@ -60,11 +60,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/ThemeDropdownMenu";
-// import {
-//   HoverCard,
-//   HoverCardContent,
-//   HoverCardTrigger,
-// } from "@/components/ui/ThemeHoverCard";
+
 import { Input } from "@/components/ui/ThemeInput";
 import { Label } from "@/components/ui/ThemeLabel";
 import {
@@ -84,12 +80,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/ThemeNavigationMenu";
-// import {
-//   Popover,
-//   PopoverContent,
-//   PopoverTrigger,
-// } from "@/components/ui/ThemePopover";
-// import { Progress } from "@/components/ui/ThemeProgress";
+
 import { RadioGroup, RadioGroupItem } from "@/components/ui/ThemeRadio-group";
 import { ScrollArea } from "@/components/ui/ThemeScrollArea";
 import {
@@ -100,7 +91,6 @@ import {
   SelectValue,
 } from "@/components/ui/ThemeSelect";
 import { Separator } from "@/components/ui/ThemeSeparator";
-// import { Slider } from "@/components/ui/ThemeSlider";
 import { Switch } from "@/components/ui/ThemeSwitch";
 import {
   Table,
@@ -119,12 +109,7 @@ import {
 } from "@/components/ui/ThemeTabs";
 import { Textarea } from "@/components/ui/ThemeTextarea";
 import { Toggle } from "@/components/ui/ThemeToggle";
-// import {
-//   Tooltip,
-//   TooltipContent,
-//   TooltipTrigger,
-//   TooltipProvider,
-// } from "@/components/ui/ThemeTooltip";
+
 import {
   Accordion,
   AccordionContent,
@@ -339,34 +324,6 @@ export const DropdownMenuComponent = () => (
   </DropdownMenu>
 );
 
-// export const HoverCardComponent = () => (
-//   <HoverCard>
-//     <HoverCardTrigger asChild>
-//       <Button variant="link">@nextjs</Button>
-//     </HoverCardTrigger>
-//     <HoverCardContent className="w-80">
-//       <div className="flex justify-between space-x-4">
-//         <Avatar>
-//           <AvatarImage src="https://github.com/vercel.png" />
-//           <AvatarFallback>VC</AvatarFallback>
-//         </Avatar>
-//         <div className="space-y-1">
-//           <h4 className="text-sm font-semibold">@nextjs</h4>
-//           <p className="text-sm">
-//             The React Framework - created and maintained by @vercel.
-//           </p>
-//           <div className="flex items-center pt-2">
-//             <CalendarDays className="mr-2 h-4 w-4 opacity-70" />{" "}
-//             <span className="text-xs text-muted-foreground">
-//               Joined December 2021
-//             </span>
-//           </div>
-//         </div>
-//       </div>
-//     </HoverCardContent>
-//   </HoverCard>
-// );
-
 export const InputComponent = () => (
   <div className="flex flex-col space-y-4 text-left">
     <Input type="name" placeholder="Name" />
@@ -498,17 +455,6 @@ export const NavigationMenuComponent = () => (
   </NavigationMenu>
 );
 
-// export const PopoverComponent = () => (
-//   <Popover>
-//     <PopoverTrigger asChild>
-//       <Button variant="outline">Open popover</Button>
-//     </PopoverTrigger>
-//     <PopoverContent>Place content for the popover here.</PopoverContent>
-//   </Popover>
-// );
-
-// export const ProgressComponent = () => <Progress value={33} />;
-
 export const RadioGroupComponent = () => (
   <RadioGroup defaultValue="option-one">
     <div className="flex items-center space-x-2">
@@ -580,10 +526,6 @@ export const SeparatorComponent = () => (
   </>
 );
 
-// export const SliderComponent = () => (
-//   <Slider defaultValue={[33]} max={100} step={1} className="" />
-// );
-
 export const SwitchComponent = () => (
   <div className="flex items-center space-x-2">
     <Switch id="airplane-mode" />
@@ -647,16 +589,3 @@ export const ToggleComponent = () => (
     <span className="italic">Italic</span>
   </Toggle>
 );
-
-// export const TooltipComponent = () => (
-//   <TooltipProvider>
-//     <Tooltip>
-//       <TooltipTrigger asChild>
-//         <Button variant="outline">Hover</Button>
-//       </TooltipTrigger>
-//       <TooltipContent>
-//         <p>Add to library</p>
-//       </TooltipContent>
-//     </Tooltip>
-//   </TooltipProvider>
-// );
