@@ -10,13 +10,13 @@ import {
   TabsList as RetroTabsList,
   TabsTrigger as RetroTabsTrigger,
   TabsContent as RetroTabsContent,
-} from "./Retro/tabs-retro";
+} from "./Retro/tabs";
 import {
   Tabs as TechTabs,
   TabsList as TechTabsList,
   TabsTrigger as TechTabsTrigger,
   TabsContent as TechTabsContent,
-} from "./Tech/tabs-tech";
+} from "./Tech/tabs";
 
 export const Tabs = withThemeComponent(ModernTabs, RetroTabs, TechTabs);
 export const TabsList = withThemeComponent(

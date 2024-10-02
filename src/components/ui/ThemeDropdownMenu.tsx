@@ -15,7 +15,7 @@ import {
   DropdownMenuLabel as RetroDropdownMenuLabel,
   DropdownMenuSeparator as RetroDropdownMenuSeparator,
   DropdownMenuTrigger as RetroDropdownMenuTrigger,
-} from "./Retro/dropdown-menu-retro";
+} from "./Retro/dropdown-menu";
 
 import {
   DropdownMenu as TechDropdownMenu,
@@ -24,7 +24,7 @@ import {
   DropdownMenuLabel as TechDropdownMenuLabel,
   DropdownMenuSeparator as TechDropdownMenuSeparator,
   DropdownMenuTrigger as TechDropdownMenuTrigger,
-} from "./Tech/dropdown-menu-tech";
+} from "./Tech/dropdown-menu";
 
 export const DropdownMenu = withThemeComponent(
   ModernDropdownMenu,

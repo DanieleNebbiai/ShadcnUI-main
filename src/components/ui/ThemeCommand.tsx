@@ -14,7 +14,7 @@ import {
   CommandInput as RetroCommandInput,
   CommandItem as RetroCommandItem,
   CommandList as RetroCommandList,
-} from "./Retro/command-retro";
+} from "./Retro/command";
 import {
   Command as TechCommand,
   CommandEmpty as TechCommandEmpty,
@@ -22,7 +22,7 @@ import {
   CommandInput as TechCommandInput,
   CommandItem as TechCommandItem,
   CommandList as TechCommandList,
-} from "./Tech/command-tech";
+} from "./Tech/command";
 
 export const Command = withThemeComponent(
   ModernCommand,

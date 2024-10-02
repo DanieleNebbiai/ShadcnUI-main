@@ -19,7 +19,7 @@ import {
   NavigationMenuLink as RetroNavigationMenuLink,
   NavigationMenuIndicator as RetroNavigationMenuIndicator,
   NavigationMenuViewport as RetroNavigationMenuViewport,
-} from "./Retro/navigation-menu-retro";
+} from "./Retro/navigation-menu";
 
 import {
   NavigationMenu as TechNavigationMenu,
@@ -30,7 +30,7 @@ import {
   NavigationMenuLink as TechNavigationMenuLink,
   NavigationMenuIndicator as TechNavigationMenuIndicator,
   NavigationMenuViewport as TechNavigationMenuViewport,
-} from "./Tech/navigation-menu-tech";
+} from "./Tech/navigation-menu";
 
 export const NavigationMenu = withThemeComponent(
   ModernNavigationMenu,

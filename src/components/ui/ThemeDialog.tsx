@@ -16,7 +16,7 @@ import {
   DialogHeader as RetroDialogHeader,
   DialogTitle as RetroDialogTitle,
   DialogTrigger as RetroDialogTrigger,
-} from "./Retro/dialog-retro";
+} from "./Retro/dialog";
 import {
   Dialog as TechDialog,
   DialogContent as TechDialogContent,
@@ -25,7 +25,7 @@ import {
   DialogHeader as TechDialogHeader,
   DialogTitle as TechDialogTitle,
   DialogTrigger as TechDialogTrigger,
-} from "./Tech/dialog-tech";
+} from "./Tech/dialog";
 
 export const Dialog = withThemeComponent(ModernDialog, RetroDialog, TechDialog);
 export const DialogContent = withThemeComponent(

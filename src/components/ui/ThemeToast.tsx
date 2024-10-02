@@ -18,7 +18,7 @@ import {
   ToastProvider as RetroToastProvider,
   ToastTitle as RetroToastTitle,
   ToastViewport as RetroToastViewport,
-} from "./Retro/toast-retro";
+} from "./Retro/toast";
 import {
   Toast as TechToast,
   ToastAction as TechToastAction,
@@ -27,7 +27,7 @@ import {
   ToastProvider as TechToastProvider,
   ToastTitle as TechToastTitle,
   ToastViewport as TechToastViewport,
-} from "./Tech/toast-tech";
+} from "./Tech/toast";
 
 export const Toast = withThemeComponent(ModernToast, RetroToast, TechToast);
 export const ToastAction = withThemeComponent(

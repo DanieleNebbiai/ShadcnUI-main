@@ -10,13 +10,13 @@ import {
   TooltipContent as RetroTooltipContent,
   TooltipProvider as RetroTooltipProvider,
   TooltipTrigger as RetroTooltipTrigger,
-} from "./Retro/tooltip-retro";
+} from "./Retro/tooltip";
 import {
   Tooltip as TechTooltip,
   TooltipContent as TechTooltipContent,
   TooltipProvider as TechTooltipProvider,
   TooltipTrigger as TechTooltipTrigger,
-} from "./Tech/tooltip-tech";
+} from "./Tech/tooltip";
 
 export const Tooltip = withThemeComponent(
   ModernTooltip,

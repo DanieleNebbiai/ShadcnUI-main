@@ -10,13 +10,13 @@ import {
   AccordionItem as RetroAccordionItem,
   AccordionTrigger as RetroAccordionTrigger,
   AccordionContent as RetroAccordionContent,
-} from "./Retro/accordion-retro";
+} from "./Retro/accordion";
 import {
   Accordion as TechAccordion,
   AccordionItem as TechAccordionItem,
   AccordionTrigger as TechAccordionTrigger,
   AccordionContent as TechAccordionContent,
-} from "./Tech/accordion-tech";
+} from "./Tech/accordion";
 
 export const Accordion = withThemeComponent(
   ModernAccordion,

@@ -14,7 +14,7 @@ import {
   CardTitle as RetroCardTitle,
   CardDescription as RetroCardDescription,
   CardContent as RetroCardContent,
-} from "./Retro/card-retro";
+} from "./Retro/card";
 import {
   Card as TechCard,
   CardHeader as TechCardHeader,
@@ -22,7 +22,7 @@ import {
   CardTitle as TechCardTitle,
   CardDescription as TechCardDescription,
   CardContent as TechCardContent,
-} from "./Tech/card-tech";
+} from "./Tech/card";
 
 export const Card = withThemeComponent(ModernCard, RetroCard, TechCard);
 

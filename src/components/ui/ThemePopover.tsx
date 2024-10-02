@@ -8,12 +8,12 @@ import {
   Popover as RetroPopover,
   PopoverTrigger as RetroPopoverTrigger,
   PopoverContent as RetroPopoverContent,
-} from "./Retro/popover-retro";
+} from "./Retro/popover";
 import {
   Popover as TechPopover,
   PopoverTrigger as TechPopoverTrigger,
   PopoverContent as TechPopoverContent,
-} from "./Tech/popover-tech";
+} from "./Tech/popover";
 
 export const Popover = withThemeComponent(
   ModernPopover,

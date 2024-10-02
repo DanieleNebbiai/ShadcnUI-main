@@ -20,7 +20,7 @@ import {
   AlertDialogHeader as RetroAlertDialogHeader,
   AlertDialogTitle as RetroAlertDialogTitle,
   AlertDialogTrigger as RetroAlertDialogTrigger,
-} from "./Retro/alert-dialog-retro";
+} from "./Retro/alert-dialog";
 import {
   AlertDialog as TechAlertDialog,
   AlertDialogAction as TechAlertDialogAction,
@@ -31,7 +31,7 @@ import {
   AlertDialogHeader as TechAlertDialogHeader,
   AlertDialogTitle as TechAlertDialogTitle,
   AlertDialogTrigger as TechAlertDialogTrigger,
-} from "./Tech/alert-dialog-tech";
+} from "./Tech/alert-dialog";
 
 export const AlertDialog = withThemeComponent(
   ModernAlertDialog,

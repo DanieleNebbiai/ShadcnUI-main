@@ -10,13 +10,13 @@ import {
   ContextMenuContent as RetroContextMenuContent,
   ContextMenuItem as RetroContextMenuItem,
   ContextMenuTrigger as RetroContextMenuTrigger,
-} from "./Retro/context-menu-retro";
+} from "./Retro/context-menu";
 import {
   ContextMenu as TechContextMenu,
   ContextMenuContent as TechContextMenuContent,
   ContextMenuItem as TechContextMenuItem,
   ContextMenuTrigger as TechContextMenuTrigger,
-} from "./Tech/context-menu-tech";
+} from "./Tech/context-menu";
 
 export const ContextMenu = withThemeComponent(
   ModernContextMenu,

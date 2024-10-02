@@ -6,11 +6,11 @@ import {
 import {
   ScrollArea as RetroScrollArea,
   ScrollBar as RetroScrollBar,
-} from "./Retro/scroll-area-retro";
+} from "./Retro/scroll-area";
 import {
   ScrollArea as TechScrollArea,
   ScrollBar as TechScrollBar,
-} from "./Tech/scroll-area-tech";
+} from "./Tech/scroll-area";
 
 export const ScrollArea = withThemeComponent(
   ModernScrollArea,

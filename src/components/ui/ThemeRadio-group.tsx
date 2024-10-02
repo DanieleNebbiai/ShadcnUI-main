@@ -6,11 +6,11 @@ import {
 import {
   RadioGroup as RetroRadioGroup,
   RadioGroupItem as RetroRadioGroupItem,
-} from "./Retro/radio-group-retro";
+} from "./Retro/radio-group";
 import {
   RadioGroup as TechRadioGroup,
   RadioGroupItem as TechRadioGroupItem,
-} from "./Tech/radio-group-tech";
+} from "./Tech/radio-group";
 
 export const RadioGroup = withThemeComponent(
   ModernRadioGroup,

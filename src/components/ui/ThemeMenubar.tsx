@@ -32,7 +32,7 @@ import {
   MenubarSubTrigger as RetroMenubarSubTrigger,
   MenubarRadioGroup as RetroMenubarRadioGroup,
   MenubarRadioItem as RetroMenubarRadioItem,
-} from "./Retro/menubar-retro";
+} from "./Retro/menubar";
 import {
   Menubar as TechMenubar,
   MenubarMenu as TechMenubarMenu,
@@ -49,7 +49,7 @@ import {
   MenubarSubTrigger as TechMenubarSubTrigger,
   MenubarRadioGroup as TechMenubarRadioGroup,
   MenubarRadioItem as TechMenubarRadioItem,
-} from "./Tech/menubar-tech";
+} from "./Tech/menubar";
 
 export const Menubar = withThemeComponent(
   ModernMenubar,

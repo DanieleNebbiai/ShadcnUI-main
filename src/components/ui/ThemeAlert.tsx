@@ -8,12 +8,12 @@ import {
   Alert as RetroAlert,
   AlertTitle as RetroAlertTitle,
   AlertDescription as RetroAlertDescription,
-} from "./Retro/alert-retro";
+} from "./Retro/alert";
 import {
   Alert as TechAlert,
   AlertTitle as TechAlertTitle,
   AlertDescription as TechAlertDescription,
-} from "./Tech/alert-tech";
+} from "./Tech/alert";
 
 export const Alert = withThemeComponent(ModernAlert, RetroAlert, TechAlert);
 

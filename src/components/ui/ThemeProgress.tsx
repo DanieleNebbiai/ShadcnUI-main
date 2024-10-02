@@ -2,7 +2,7 @@ import React from "react";
 import { useTheme } from "@/context/ThemeContext";
 import { Progress as ModernProgress } from "./Shadcn/progress";
 
-import { Progress as RetroProgress } from "./Retro/progress-retro";
+import { Progress as RetroProgress } from "./Retro/progress";
 
 export const Progress: React.FC<React.ComponentProps<typeof ModernProgress>> = (
   props

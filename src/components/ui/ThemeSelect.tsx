@@ -18,7 +18,7 @@ import {
   SelectLabel as RetroSelectLabel,
   SelectItem as RetroSelectItem,
   SelectSeparator as RetroSelectSeparator,
-} from "./Retro/select-retro";
+} from "./Retro/select";
 import {
   Select as TechSelect,
   SelectGroup as TechSelectGroup,
@@ -28,7 +28,7 @@ import {
   SelectLabel as TechSelectLabel,
   SelectItem as TechSelectItem,
   SelectSeparator as TechSelectSeparator,
-} from "./Tech/select-tech";
+} from "./Tech/select";
 
 export const Select = withThemeComponent(ModernSelect, RetroSelect, TechSelect);
 export const SelectGroup = withThemeComponent(

@@ -8,12 +8,12 @@ import {
   Collapsible as RetroCollapsible,
   CollapsibleContent as RetroCollapsibleContent,
   CollapsibleTrigger as RetroCollapsibleTrigger,
-} from "./Retro/collapsible-retro";
+} from "./Retro/collapsible";
 import {
   Collapsible as TechCollapsible,
   CollapsibleContent as TechCollapsibleContent,
   CollapsibleTrigger as TechCollapsibleTrigger,
-} from "./Tech/collapsible-tech";
+} from "./Tech/collapsible";
 
 export const Collapsible = withThemeComponent(
   ModernCollapsible,

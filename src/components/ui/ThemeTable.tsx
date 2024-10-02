@@ -18,7 +18,7 @@ import {
   TableRow as RetroTableRow,
   TableCell as RetroTableCell,
   TableCaption as RetroTableCaption,
-} from "./Retro/table-retro";
+} from "./Retro/table";
 import {
   Table as TechTable,
   TableHeader as TechTableHeader,
@@ -28,7 +28,7 @@ import {
   TableRow as TechTableRow,
   TableCell as TechTableCell,
   TableCaption as TechTableCaption,
-} from "./Tech/table-tech";
+} from "./Tech/table";
 
 export const Table = withThemeComponent(ModernTable, RetroTable, TechTable);
 export const TableHeader = withThemeComponent(
