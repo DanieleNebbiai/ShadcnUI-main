@@ -10,7 +10,7 @@ function App() {
   return (
     <ThemeProvider>
       <ThemeWrapper>
-        <Router>
+        <Router basename="/ShadcnUI-main">
           <NavbarComponent />
           <Routes>
             <Route path="/" element={<HomePage />} />
