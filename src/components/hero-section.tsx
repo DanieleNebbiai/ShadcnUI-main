@@ -47,7 +47,11 @@ export function HeroSection() {
             component.
           </Typography>
           <pre className="bg-card border text-card-foreground text-xl p-6 rounded-xl">
-            <code>git clone https://github.com/{theme}/ui.git</code>
+            <code>
+              git clone
+              https://github.com/DanieleNebbiai/ShadcnUI-style/tree/main/src/components/
+              {theme}
+            </code>
           </pre>
         </div>
         <div className="flex justify-center md:justify-end">

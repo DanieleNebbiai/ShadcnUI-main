@@ -6,7 +6,7 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "@/components/ui/Retro/toast-retro";
+} from "@/components/ui/Retro/toast";
 
 export function Toaster() {
   const { toasts } = useToast();
