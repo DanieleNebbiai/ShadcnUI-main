@@ -1,3 +1,4 @@
+import React from "react";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { NavbarComponent } from "@/components/navbar";
@@ -6,21 +7,21 @@ import { ShowcasePage } from "./Pages/Showcase";
 import { ComponentsPage } from "./Pages/Components";
 import { ThemeWrapper } from "./components/ThemeWrapper";
 
-function App() {
+const App: React.FC = () => {
   return (
     <ThemeProvider>
-      <ThemeWrapper>
-        <Router basename="/ShadcnUI-main">
+      <Router>
+        <ThemeWrapper>
           <NavbarComponent />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/Showcase" element={<ShowcasePage />} />
             <Route path="/Components/*" element={<ComponentsPage />} />
           </Routes>
-        </Router>
-      </ThemeWrapper>
+        </ThemeWrapper>
+      </Router>
     </ThemeProvider>
   );
-}
+};
 
 export default App;

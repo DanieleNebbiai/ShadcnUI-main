@@ -7,6 +7,7 @@ import { StyleButtonComponent } from "./style-button";
 import { Sun, Moon, Laptop } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTheme } from "@/context/ThemeContext";
+import { Card, CardContent } from "./ui/ThemeCard";
 
 export function HeroSection() {
   const { theme } = useTheme();
@@ -46,13 +47,18 @@ export function HeroSection() {
             Pick a style up here and git clone the new styled ShadcnUI
             component.
           </Typography>
-          <pre className="bg-card border text-card-foreground text-xl p-6 rounded-xl">
-            <code>
-              git clone
-              https://github.com/DanieleNebbiai/ShadcnUI-style/tree/main/src/components/
-              {theme}
-            </code>
-          </pre>
+          <Card>
+            <CardContent>
+              <Typography
+                variant="p"
+                className="justify-center items-center mx-auto mt-3"
+              >
+                git clone
+                https://github.com/DanieleNebbiai/ShadcnUI-style/tree/main/src/components/
+                {theme}
+              </Typography>
+            </CardContent>
+          </Card>
         </div>
         <div className="flex justify-center md:justify-end">
           <DestinationCardComponent
