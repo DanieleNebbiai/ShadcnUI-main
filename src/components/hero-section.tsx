@@ -4,11 +4,19 @@ import { Button } from "@/components/ui/ThemeButton";
 import { DestinationCardComponent } from "./destination-card";
 import { Typography } from "./Typography";
 import { StyleButtonComponent } from "./style-button";
-import { Sun, Moon, Laptop } from "lucide-react";
+import {
+  AlignCenter,
+  Gamepad2,
+  StickyNote,
+  BotMessageSquare,
+  Leaf,
+  Bolt,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTheme } from "@/context/ThemeContext";
 import { Separator } from "./ui/ThemeSeparator";
 import { CodeSnippet } from "./CodeSnippet";
+import { Badge } from "./ui/ThemeBadge";
 
 export function HeroSection() {
   const { theme } = useTheme();
@@ -131,14 +139,55 @@ export function HeroSection() {
                 Pick a style up here
               </Typography>
             </div>
-            <div className="flex gap-4">
-              <StyleButtonComponent icon={Sun} label="Modern" theme="modern" />
-              <StyleButtonComponent icon={Moon} label="Retro" theme="retro" />
+            <div className="flex gap-4 flex-wrap  sm:flex-row w-full sm:w-auto">
               <StyleButtonComponent
-                icon={Laptop}
+                icon={AlignCenter}
+                label="Modern"
+                theme="modern"
+              />
+              <StyleButtonComponent
+                icon={Gamepad2}
+                label="Retro"
+                theme="retro"
+              />
+              <StyleButtonComponent
+                icon={StickyNote}
                 label="Brutalist"
                 theme="brutalist"
               />
+              <div className="relative">
+                <StyleButtonComponent
+                  icon={BotMessageSquare}
+                  label="Cyberpunk"
+                  theme="modern"
+                  disabled={true}
+                />
+                <Badge className="absolute -top-3 -right-2" variant="default">
+                  progress
+                </Badge>
+              </div>
+              <div className="relative">
+                <StyleButtonComponent
+                  icon={Leaf}
+                  label="Organic"
+                  theme="modern"
+                  disabled={true}
+                />
+                <Badge className="absolute -top-3 -right-2" variant="secondary">
+                  next
+                </Badge>
+              </div>
+              <div className="relative">
+                <StyleButtonComponent
+                  icon={Bolt}
+                  label="Material"
+                  theme="modern"
+                  disabled={true}
+                />
+                <Badge className="absolute -top-3 -right-2" variant="secondary">
+                  next
+                </Badge>
+              </div>
             </div>
             <Separator orientation="vertical" className="h-8 ml-5 w-1" />
             <div className="flex gap-4">
