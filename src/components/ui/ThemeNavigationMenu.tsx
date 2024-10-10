@@ -22,60 +22,60 @@ import {
 } from "./Retro/navigation-menu";
 
 import {
-  NavigationMenu as TechNavigationMenu,
-  NavigationMenuList as TechNavigationMenuList,
-  NavigationMenuItem as TechNavigationMenuItem,
-  NavigationMenuTrigger as TechNavigationMenuTrigger,
-  NavigationMenuContent as TechNavigationMenuContent,
-  NavigationMenuLink as TechNavigationMenuLink,
-  NavigationMenuIndicator as TechNavigationMenuIndicator,
-  NavigationMenuViewport as TechNavigationMenuViewport,
-} from "./Tech/navigation-menu";
+  NavigationMenu as BrutalistNavigationMenu,
+  NavigationMenuList as BrutalistNavigationMenuList,
+  NavigationMenuItem as BrutalistNavigationMenuItem,
+  NavigationMenuTrigger as BrutalistNavigationMenuTrigger,
+  NavigationMenuContent as BrutalistNavigationMenuContent,
+  NavigationMenuLink as BrutalistNavigationMenuLink,
+  NavigationMenuIndicator as BrutalistNavigationMenuIndicator,
+  NavigationMenuViewport as BrutalistNavigationMenuViewport,
+} from "./Brutalist/navigation-menu";
 
 export const NavigationMenu = withThemeComponent(
   ModernNavigationMenu,
   RetroNavigationMenu,
-  TechNavigationMenu
+  BrutalistNavigationMenu
 );
 
 export const NavigationMenuList = withThemeComponent(
   ModernNavigationMenuList,
   RetroNavigationMenuList,
-  TechNavigationMenuList
+  BrutalistNavigationMenuList
 );
 
 export const NavigationMenuViewport = withThemeComponent(
   ModernNavigationMenuViewport,
   RetroNavigationMenuViewport,
-  TechNavigationMenuViewport
+  BrutalistNavigationMenuViewport
 );
 
 export const NavigationMenuItem = withThemeComponent(
   ModernNavigationMenuItem,
   RetroNavigationMenuItem,
-  TechNavigationMenuItem
+  BrutalistNavigationMenuItem
 );
 
 export const NavigationMenuTrigger = withThemeComponent(
   ModernNavigationMenuTrigger,
   RetroNavigationMenuTrigger,
-  TechNavigationMenuTrigger
+  BrutalistNavigationMenuTrigger
 );
 
 export const NavigationMenuContent = withThemeComponent(
   ModernNavigationMenuContent,
   RetroNavigationMenuContent,
-  TechNavigationMenuContent
+  BrutalistNavigationMenuContent
 );
 
 export const NavigationMenuLink = withThemeComponent(
   ModernNavigationMenuLink,
   RetroNavigationMenuLink,
-  TechNavigationMenuLink
+  BrutalistNavigationMenuLink
 );
 
 export const NavigationMenuIndicator = withThemeComponent(
   ModernNavigationMenuIndicator,
   RetroNavigationMenuIndicator,
-  TechNavigationMenuIndicator
+  BrutalistNavigationMenuIndicator
 );

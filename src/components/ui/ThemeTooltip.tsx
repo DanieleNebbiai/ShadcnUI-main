@@ -12,29 +12,29 @@ import {
   TooltipTrigger as RetroTooltipTrigger,
 } from "./Retro/tooltip";
 import {
-  Tooltip as TechTooltip,
-  TooltipContent as TechTooltipContent,
-  TooltipProvider as TechTooltipProvider,
-  TooltipTrigger as TechTooltipTrigger,
-} from "./Tech/tooltip";
+  Tooltip as BrutalistTooltip,
+  TooltipContent as BrutalistTooltipContent,
+  TooltipProvider as BrutalistTooltipProvider,
+  TooltipTrigger as BrutalistTooltipTrigger,
+} from "./Brutalist/tooltip";
 
 export const Tooltip = withThemeComponent(
   ModernTooltip,
   RetroTooltip,
-  TechTooltip
+  BrutalistTooltip
 );
 export const TooltipContent = withThemeComponent(
   ModernTooltipContent,
   RetroTooltipContent,
-  TechTooltipContent
+  BrutalistTooltipContent
 );
 export const TooltipProvider = withThemeComponent(
   ModernTooltipProvider,
   RetroTooltipProvider,
-  TechTooltipProvider
+  BrutalistTooltipProvider
 );
 export const TooltipTrigger = withThemeComponent(
   ModernTooltipTrigger,
   RetroTooltipTrigger,
-  TechTooltipTrigger
+  BrutalistTooltipTrigger
 );

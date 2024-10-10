@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+# Getting Started with CitrusUI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Welcome to CitrusUI
 
-Currently, two official plugins are available:
+CitrusUI is a modern React UI library builded on top of ShadcnUI designed to help you customize your project with ease.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Please have a look to ShadcnUI documentation to get more information about the library.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To get started with CitrusUI, you just need to follow the steps from ShadcnUI documentation, nothing else is required.
 
-- Configure the top-level `parserOptions` property like this:
+## Basic Usage
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+The components in this library are the same of Shadcn with some little twerks that don't affect the usage.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+To use it you can just import the new UI components from the library and use them as you would use the ShadcnUI components.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+You DON'T need to apply any modification on your project, this new UI component works directly with the component made with ShadcnUI.

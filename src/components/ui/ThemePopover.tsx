@@ -10,23 +10,23 @@ import {
   PopoverContent as RetroPopoverContent,
 } from "./Retro/popover";
 import {
-  Popover as TechPopover,
-  PopoverTrigger as TechPopoverTrigger,
-  PopoverContent as TechPopoverContent,
-} from "./Tech/popover";
+  Popover as BrutalistPopover,
+  PopoverTrigger as BrutalistPopoverTrigger,
+  PopoverContent as BrutalistPopoverContent,
+} from "./Brutalist/popover";
 
 export const Popover = withThemeComponent(
   ModernPopover,
   RetroPopover,
-  TechPopover
+  BrutalistPopover
 );
 export const PopoverTrigger = withThemeComponent(
   ModernPopoverTrigger,
   RetroPopoverTrigger,
-  TechPopoverTrigger
+  BrutalistPopoverTrigger
 );
 export const PopoverContent = withThemeComponent(
   ModernPopoverContent,
   RetroPopoverContent,
-  TechPopoverContent
+  BrutalistPopoverContent
 );

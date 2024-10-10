@@ -2,7 +2,7 @@ import { ComponentPreview } from "../ComponentPreview";
 import { ButtonComponent } from "../ComponentShowcase";
 import { useTheme } from "@/context/ThemeContext";
 import { Typography } from "@/components/Typography";
-
+import { CodeSnippet } from "@/components/CodeSnippet";
 export function GettingStarted() {
   const { theme } = useTheme();
 
@@ -56,15 +56,11 @@ export function GettingStarted() {
           with the component made with ShadcnUI.
         </Typography>
         <Typography variant="p" className="mb-2 mt-2 font-thin">
-          To get the full repository
+          Just use the CLI that we provide to add the components that you need
+          for your project.
         </Typography>
-        <pre className="bg-gray-100 p-4 rounded-md">
-          <code>git clone https://github.com/shadcn/ui.git</code>
-        </pre>
-        <Typography variant="p" className="mb-6 mt-8 font-thin">
-          or just the components you need via the components section of this
-          documentation.
-        </Typography>
+        <CodeSnippet span="npx" code={` citrusui-${theme}@latest add button`} />
+
         <ComponentPreview
           componentName="Button"
           PreviewComponent={ButtonComponent}

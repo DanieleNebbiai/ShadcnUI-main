@@ -6,7 +6,7 @@ import React, {
   ReactNode,
 } from "react";
 
-type Theme = "modern" | "retro" | "tech";
+type Theme = "modern" | "retro" | "brutalist";
 
 interface ThemeContextProps {
   theme: Theme;

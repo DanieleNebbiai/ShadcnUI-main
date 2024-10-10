@@ -10,23 +10,23 @@ import {
   CollapsibleTrigger as RetroCollapsibleTrigger,
 } from "./Retro/collapsible";
 import {
-  Collapsible as TechCollapsible,
-  CollapsibleContent as TechCollapsibleContent,
-  CollapsibleTrigger as TechCollapsibleTrigger,
-} from "./Tech/collapsible";
+  Collapsible as BrutalistCollapsible,
+  CollapsibleContent as BrutalistCollapsibleContent,
+  CollapsibleTrigger as BrutalistCollapsibleTrigger,
+} from "./Brutalist/collapsible";
 
 export const Collapsible = withThemeComponent(
   ModernCollapsible,
   RetroCollapsible,
-  TechCollapsible
+  BrutalistCollapsible
 );
 export const CollapsibleContent = withThemeComponent(
   ModernCollapsibleContent,
   RetroCollapsibleContent,
-  TechCollapsibleContent
+  BrutalistCollapsibleContent
 );
 export const CollapsibleTrigger = withThemeComponent(
   ModernCollapsibleTrigger,
   RetroCollapsibleTrigger,
-  TechCollapsibleTrigger
+  BrutalistCollapsibleTrigger
 );

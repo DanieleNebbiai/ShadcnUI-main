@@ -16,41 +16,41 @@ import {
   CommandList as RetroCommandList,
 } from "./Retro/command";
 import {
-  Command as TechCommand,
-  CommandEmpty as TechCommandEmpty,
-  CommandGroup as TechCommandGroup,
-  CommandInput as TechCommandInput,
-  CommandItem as TechCommandItem,
-  CommandList as TechCommandList,
-} from "./Tech/command";
+  Command as BrutalistCommand,
+  CommandEmpty as BrutalistCommandEmpty,
+  CommandGroup as BrutalistCommandGroup,
+  CommandInput as BrutalistCommandInput,
+  CommandItem as BrutalistCommandItem,
+  CommandList as BrutalistCommandList,
+} from "./Brutalist/command";
 
 export const Command = withThemeComponent(
   ModernCommand,
   RetroCommand,
-  TechCommand
+  BrutalistCommand
 );
 export const CommandEmpty = withThemeComponent(
   ModernCommandEmpty,
   RetroCommandEmpty,
-  TechCommandEmpty
+  BrutalistCommandEmpty
 );
 export const CommandGroup = withThemeComponent(
   ModernCommandGroup,
   RetroCommandGroup,
-  TechCommandGroup
+  BrutalistCommandGroup
 );
 export const CommandInput = withThemeComponent(
   ModernCommandInput,
   RetroCommandInput,
-  TechCommandInput
+  BrutalistCommandInput
 );
 export const CommandItem = withThemeComponent(
   ModernCommandItem,
   RetroCommandItem,
-  TechCommandItem
+  BrutalistCommandItem
 );
 export const CommandList = withThemeComponent(
   ModernCommandList,
   RetroCommandList,
-  TechCommandList
+  BrutalistCommandList
 );

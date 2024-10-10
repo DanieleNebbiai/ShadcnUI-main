@@ -16,42 +16,42 @@ import {
   CardContent as RetroCardContent,
 } from "./Retro/card";
 import {
-  Card as TechCard,
-  CardHeader as TechCardHeader,
-  CardFooter as TechCardFooter,
-  CardTitle as TechCardTitle,
-  CardDescription as TechCardDescription,
-  CardContent as TechCardContent,
-} from "./Tech/card";
+  Card as BrutalistCard,
+  CardHeader as BrutalistCardHeader,
+  CardFooter as BrutalistCardFooter,
+  CardTitle as BrutalistCardTitle,
+  CardDescription as BrutalistCardDescription,
+  CardContent as BrutalistCardContent,
+} from "./Brutalist/card";
 
-export const Card = withThemeComponent(ModernCard, RetroCard, TechCard);
+export const Card = withThemeComponent(ModernCard, RetroCard, BrutalistCard);
 
 export const CardHeader = withThemeComponent(
   ModernCardHeader,
   RetroCardHeader,
-  TechCardHeader
+  BrutalistCardHeader
 );
 
 export const CardFooter = withThemeComponent(
   ModernCardFooter,
   RetroCardFooter,
-  TechCardFooter
+  BrutalistCardFooter
 );
 
 export const CardTitle = withThemeComponent(
   ModernCardTitle,
   RetroCardTitle,
-  TechCardTitle
+  BrutalistCardTitle
 );
 
 export const CardDescription = withThemeComponent(
   ModernCardDescription,
   RetroCardDescription,
-  TechCardDescription
+  BrutalistCardDescription
 );
 
 export const CardContent = withThemeComponent(
   ModernCardContent,
   RetroCardContent,
-  TechCardContent
+  BrutalistCardContent
 );

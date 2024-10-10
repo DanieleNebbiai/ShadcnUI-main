@@ -34,95 +34,95 @@ import {
   MenubarRadioItem as RetroMenubarRadioItem,
 } from "./Retro/menubar";
 import {
-  Menubar as TechMenubar,
-  MenubarMenu as TechMenubarMenu,
-  MenubarTrigger as TechMenubarTrigger,
-  MenubarContent as TechMenubarContent,
-  MenubarItem as TechMenubarItem,
-  MenubarSeparator as TechMenubarSeparator,
-  MenubarLabel as TechMenubarLabel,
-  MenubarShortcut as TechMenubarShortcut,
-  MenubarGroup as TechMenubarGroup,
-  MenubarPortal as TechMenubarPortal,
-  MenubarSub as TechMenubarSub,
-  MenubarSubContent as TechMenubarSubContent,
-  MenubarSubTrigger as TechMenubarSubTrigger,
-  MenubarRadioGroup as TechMenubarRadioGroup,
-  MenubarRadioItem as TechMenubarRadioItem,
-} from "./Tech/menubar";
+  Menubar as BrutalistMenubar,
+  MenubarMenu as BrutalistMenubarMenu,
+  MenubarTrigger as BrutalistMenubarTrigger,
+  MenubarContent as BrutalistMenubarContent,
+  MenubarItem as BrutalistMenubarItem,
+  MenubarSeparator as BrutalistMenubarSeparator,
+  MenubarLabel as BrutalistMenubarLabel,
+  MenubarShortcut as BrutalistMenubarShortcut,
+  MenubarGroup as BrutalistMenubarGroup,
+  MenubarPortal as BrutalistMenubarPortal,
+  MenubarSub as BrutalistMenubarSub,
+  MenubarSubContent as BrutalistMenubarSubContent,
+  MenubarSubTrigger as BrutalistMenubarSubTrigger,
+  MenubarRadioGroup as BrutalistMenubarRadioGroup,
+  MenubarRadioItem as BrutalistMenubarRadioItem,
+} from "./Brutalist/menubar";
 
 export const Menubar = withThemeComponent(
   ModernMenubar,
   RetroMenubar,
-  TechMenubar
+  BrutalistMenubar
 );
 export const MenubarMenu = withThemeComponent(
   ModernMenubarMenu,
   RetroMenubarMenu,
-  TechMenubarMenu
+  BrutalistMenubarMenu
 );
 export const MenubarTrigger = withThemeComponent(
   ModernMenubarTrigger,
   RetroMenubarTrigger,
-  TechMenubarTrigger
+  BrutalistMenubarTrigger
 );
 export const MenubarContent = withThemeComponent(
   ModernMenubarContent,
   RetroMenubarContent,
-  TechMenubarContent
+  BrutalistMenubarContent
 );
 export const MenubarItem = withThemeComponent(
   ModernMenubarItem,
   RetroMenubarItem,
-  TechMenubarItem
+  BrutalistMenubarItem
 );
 export const MenubarSeparator = withThemeComponent(
   ModernMenubarSeparator,
   RetroMenubarSeparator,
-  TechMenubarSeparator
+  BrutalistMenubarSeparator
 );
 export const MenubarLabel = withThemeComponent(
   ModernMenubarLabel,
   RetroMenubarLabel,
-  TechMenubarLabel
+  BrutalistMenubarLabel
 );
 export const MenubarShortcut = withThemeComponent(
   ModernMenubarShortcut,
   RetroMenubarShortcut,
-  TechMenubarShortcut
+  BrutalistMenubarShortcut
 );
 export const MenubarGroup = withThemeComponent(
   ModernMenubarGroup,
   RetroMenubarGroup,
-  TechMenubarGroup
+  BrutalistMenubarGroup
 );
 export const MenubarPortal = withThemeComponent(
   ModernMenubarPortal,
   RetroMenubarPortal,
-  TechMenubarPortal
+  BrutalistMenubarPortal
 );
 export const MenubarSub = withThemeComponent(
   ModernMenubarSub,
   RetroMenubarSub,
-  TechMenubarSub
+  BrutalistMenubarSub
 );
 export const MenubarSubContent = withThemeComponent(
   ModernMenubarSubContent,
   RetroMenubarSubContent,
-  TechMenubarSubContent
+  BrutalistMenubarSubContent
 );
 export const MenubarSubTrigger = withThemeComponent(
   ModernMenubarSubTrigger,
   RetroMenubarSubTrigger,
-  TechMenubarSubTrigger
+  BrutalistMenubarSubTrigger
 );
 export const MenubarRadioGroup = withThemeComponent(
   ModernMenubarRadioGroup,
   RetroMenubarRadioGroup,
-  TechMenubarRadioGroup
+  BrutalistMenubarRadioGroup
 );
 export const MenubarRadioItem = withThemeComponent(
   ModernMenubarRadioItem,
   RetroMenubarRadioItem,
-  TechMenubarRadioItem
+  BrutalistMenubarRadioItem
 );

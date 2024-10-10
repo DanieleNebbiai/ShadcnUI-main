@@ -7,7 +7,7 @@ import { useTheme } from "../context/ThemeContext";
 interface StyleButtonProps {
   icon: LucideIcon;
   label: string;
-  theme: "modern" | "retro" | "tech";
+  theme: "modern" | "retro" | "brutalist";
 }
 
 export function StyleButtonComponent({

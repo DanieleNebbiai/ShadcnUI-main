@@ -18,43 +18,47 @@ import {
   ToastViewport as RetroToastViewport,
 } from "./Retro/toast";
 import {
-  Toast as TechToast,
-  ToastAction as TechToastAction,
-  ToastClose as TechToastClose,
-  ToastDescription as TechToastDescription,
-  ToastProvider as TechToastProvider,
-  ToastTitle as TechToastTitle,
-  ToastViewport as TechToastViewport,
-} from "./Tech/toast";
+  Toast as BrutalistToast,
+  ToastAction as BrutalistToastAction,
+  ToastClose as BrutalistToastClose,
+  ToastDescription as BrutalistToastDescription,
+  ToastProvider as BrutalistToastProvider,
+  ToastTitle as BrutalistToastTitle,
+  ToastViewport as BrutalistToastViewport,
+} from "./Brutalist/toast";
 
-export const Toast = withThemeComponent(ModernToast, RetroToast, TechToast);
+export const Toast = withThemeComponent(
+  ModernToast,
+  RetroToast,
+  BrutalistToast
+);
 export const ToastAction = withThemeComponent(
   ModernToastAction,
   RetroToastAction,
-  TechToastAction
+  BrutalistToastAction
 );
 export const ToastClose = withThemeComponent(
   ModernToastClose,
   RetroToastClose,
-  TechToastClose
+  BrutalistToastClose
 );
 export const ToastDescription = withThemeComponent(
   ModernToastDescription,
   RetroToastDescription,
-  TechToastDescription
+  BrutalistToastDescription
 );
 export const ToastProvider = withThemeComponent(
   ModernToastProvider,
   RetroToastProvider,
-  TechToastProvider
+  BrutalistToastProvider
 );
 export const ToastTitle = withThemeComponent(
   ModernToastTitle,
   RetroToastTitle,
-  TechToastTitle
+  BrutalistToastTitle
 );
 export const ToastViewport = withThemeComponent(
   ModernToastViewport,
   RetroToastViewport,
-  TechToastViewport
+  BrutalistToastViewport
 );

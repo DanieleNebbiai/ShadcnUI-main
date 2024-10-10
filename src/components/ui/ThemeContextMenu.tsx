@@ -12,29 +12,29 @@ import {
   ContextMenuTrigger as RetroContextMenuTrigger,
 } from "./Retro/context-menu";
 import {
-  ContextMenu as TechContextMenu,
-  ContextMenuContent as TechContextMenuContent,
-  ContextMenuItem as TechContextMenuItem,
-  ContextMenuTrigger as TechContextMenuTrigger,
-} from "./Tech/context-menu";
+  ContextMenu as BrutalistContextMenu,
+  ContextMenuContent as BrutalistContextMenuContent,
+  ContextMenuItem as BrutalistContextMenuItem,
+  ContextMenuTrigger as BrutalistContextMenuTrigger,
+} from "./Brutalist/context-menu";
 
 export const ContextMenu = withThemeComponent(
   ModernContextMenu,
   RetroContextMenu,
-  TechContextMenu
+  BrutalistContextMenu
 );
 export const ContextMenuContent = withThemeComponent(
   ModernContextMenuContent,
   RetroContextMenuContent,
-  TechContextMenuContent
+  BrutalistContextMenuContent
 );
 export const ContextMenuItem = withThemeComponent(
   ModernContextMenuItem,
   RetroContextMenuItem,
-  TechContextMenuItem
+  BrutalistContextMenuItem
 );
 export const ContextMenuTrigger = withThemeComponent(
   ModernContextMenuTrigger,
   RetroContextMenuTrigger,
-  TechContextMenuTrigger
+  BrutalistContextMenuTrigger
 );

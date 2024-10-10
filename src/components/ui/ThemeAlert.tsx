@@ -10,21 +10,25 @@ import {
   AlertDescription as RetroAlertDescription,
 } from "./Retro/alert";
 import {
-  Alert as TechAlert,
-  AlertTitle as TechAlertTitle,
-  AlertDescription as TechAlertDescription,
-} from "./Tech/alert";
+  Alert as BrutalistAlert,
+  AlertTitle as BrutalistAlertTitle,
+  AlertDescription as BrutalistAlertDescription,
+} from "./Brutalist/alert";
 
-export const Alert = withThemeComponent(ModernAlert, RetroAlert, TechAlert);
+export const Alert = withThemeComponent(
+  ModernAlert,
+  RetroAlert,
+  BrutalistAlert
+);
 
 export const AlertTitle = withThemeComponent(
   ModernAlertTitle,
   RetroAlertTitle,
-  TechAlertTitle
+  BrutalistAlertTitle
 );
 
 export const AlertDescription = withThemeComponent(
   ModernAlertDescription,
   RetroAlertDescription,
-  TechAlertDescription
+  BrutalistAlertDescription
 );

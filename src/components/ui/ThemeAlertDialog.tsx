@@ -22,59 +22,59 @@ import {
   AlertDialogTrigger as RetroAlertDialogTrigger,
 } from "./Retro/alert-dialog";
 import {
-  AlertDialog as TechAlertDialog,
-  AlertDialogAction as TechAlertDialogAction,
-  AlertDialogCancel as TechAlertDialogCancel,
-  AlertDialogContent as TechAlertDialogContent,
-  AlertDialogDescription as TechAlertDialogDescription,
-  AlertDialogFooter as TechAlertDialogFooter,
-  AlertDialogHeader as TechAlertDialogHeader,
-  AlertDialogTitle as TechAlertDialogTitle,
-  AlertDialogTrigger as TechAlertDialogTrigger,
-} from "./Tech/alert-dialog";
+  AlertDialog as BrutalistAlertDialog,
+  AlertDialogAction as BrutalistAlertDialogAction,
+  AlertDialogCancel as BrutalistAlertDialogCancel,
+  AlertDialogContent as BrutalistAlertDialogContent,
+  AlertDialogDescription as BrutalistAlertDialogDescription,
+  AlertDialogFooter as BrutalistAlertDialogFooter,
+  AlertDialogHeader as BrutalistAlertDialogHeader,
+  AlertDialogTitle as BrutalistAlertDialogTitle,
+  AlertDialogTrigger as BrutalistAlertDialogTrigger,
+} from "./Brutalist/alert-dialog";
 
 export const AlertDialog = withThemeComponent(
   ModernAlertDialog,
   RetroAlertDialog,
-  TechAlertDialog
+  BrutalistAlertDialog
 );
 export const AlertDialogAction = withThemeComponent(
   ModernAlertDialogAction,
   RetroAlertDialogAction,
-  TechAlertDialogAction
+  BrutalistAlertDialogAction
 );
 export const AlertDialogCancel = withThemeComponent(
   ModernAlertDialogCancel,
   RetroAlertDialogCancel,
-  TechAlertDialogCancel
+  BrutalistAlertDialogCancel
 );
 export const AlertDialogContent = withThemeComponent(
   ModernAlertDialogContent,
   RetroAlertDialogContent,
-  TechAlertDialogContent
+  BrutalistAlertDialogContent
 );
 export const AlertDialogDescription = withThemeComponent(
   ModernAlertDialogDescription,
   RetroAlertDialogDescription,
-  TechAlertDialogDescription
+  BrutalistAlertDialogDescription
 );
 export const AlertDialogFooter = withThemeComponent(
   ModernAlertDialogFooter,
   RetroAlertDialogFooter,
-  TechAlertDialogFooter
+  BrutalistAlertDialogFooter
 );
 export const AlertDialogHeader = withThemeComponent(
   ModernAlertDialogHeader,
   RetroAlertDialogHeader,
-  TechAlertDialogHeader
+  BrutalistAlertDialogHeader
 );
 export const AlertDialogTitle = withThemeComponent(
   ModernAlertDialogTitle,
   RetroAlertDialogTitle,
-  TechAlertDialogTitle
+  BrutalistAlertDialogTitle
 );
 export const AlertDialogTrigger = withThemeComponent(
   ModernAlertDialogTrigger,
   RetroAlertDialogTrigger,
-  TechAlertDialogTrigger
+  BrutalistAlertDialogTrigger
 );

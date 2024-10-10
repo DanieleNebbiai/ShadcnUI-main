@@ -12,25 +12,25 @@ import {
   TabsContent as RetroTabsContent,
 } from "./Retro/tabs";
 import {
-  Tabs as TechTabs,
-  TabsList as TechTabsList,
-  TabsTrigger as TechTabsTrigger,
-  TabsContent as TechTabsContent,
-} from "./Tech/tabs";
+  Tabs as BrutalistTabs,
+  TabsList as BrutalistTabsList,
+  TabsTrigger as BrutalistTabsTrigger,
+  TabsContent as BrutalistTabsContent,
+} from "./Brutalist/tabs";
 
-export const Tabs = withThemeComponent(ModernTabs, RetroTabs, TechTabs);
+export const Tabs = withThemeComponent(ModernTabs, RetroTabs, BrutalistTabs);
 export const TabsList = withThemeComponent(
   ModernTabsList,
   RetroTabsList,
-  TechTabsList
+  BrutalistTabsList
 );
 export const TabsTrigger = withThemeComponent(
   ModernTabsTrigger,
   RetroTabsTrigger,
-  TechTabsTrigger
+  BrutalistTabsTrigger
 );
 export const TabsContent = withThemeComponent(
   ModernTabsContent,
   RetroTabsContent,
-  TechTabsContent
+  BrutalistTabsContent
 );

@@ -37,7 +37,7 @@ export function NavbarComponent() {
             </Button>
             <Button variant="outline" size="icon" asChild>
               <Link
-                to="https://github.com/your-repo"
+                to="https://github.com/DanieleNebbiai/ShadcnUI-main"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -18,45 +18,45 @@ import {
 } from "./Retro/dropdown-menu";
 
 import {
-  DropdownMenu as TechDropdownMenu,
-  DropdownMenuContent as TechDropdownMenuContent,
-  DropdownMenuItem as TechDropdownMenuItem,
-  DropdownMenuLabel as TechDropdownMenuLabel,
-  DropdownMenuSeparator as TechDropdownMenuSeparator,
-  DropdownMenuTrigger as TechDropdownMenuTrigger,
-} from "./Tech/dropdown-menu";
+  DropdownMenu as BrutalistDropdownMenu,
+  DropdownMenuContent as BrutalistDropdownMenuContent,
+  DropdownMenuItem as BrutalistDropdownMenuItem,
+  DropdownMenuLabel as BrutalistDropdownMenuLabel,
+  DropdownMenuSeparator as BrutalistDropdownMenuSeparator,
+  DropdownMenuTrigger as BrutalistDropdownMenuTrigger,
+} from "./Brutalist/dropdown-menu";
 
 export const DropdownMenu = withThemeComponent(
   ModernDropdownMenu,
   RetroDropdownMenu,
-  TechDropdownMenu
+  BrutalistDropdownMenu
 );
 export const DropdownMenuContent = withThemeComponent(
   ModernDropdownMenuContent,
   RetroDropdownMenuContent,
-  TechDropdownMenuContent
+  BrutalistDropdownMenuContent
 );
 
 export const DropdownMenuItem = withThemeComponent(
   ModernDropdownMenuItem,
   RetroDropdownMenuItem,
-  TechDropdownMenuItem
+  BrutalistDropdownMenuItem
 );
 
 export const DropdownMenuLabel = withThemeComponent(
   ModernDropdownMenuLabel,
   RetroDropdownMenuLabel,
-  TechDropdownMenuLabel
+  BrutalistDropdownMenuLabel
 );
 
 export const DropdownMenuSeparator = withThemeComponent(
   ModernDropdownMenuSeparator,
   RetroDropdownMenuSeparator,
-  TechDropdownMenuSeparator
+  BrutalistDropdownMenuSeparator
 );
 
 export const DropdownMenuTrigger = withThemeComponent(
   ModernDropdownMenuTrigger,
   RetroDropdownMenuTrigger,
-  TechDropdownMenuTrigger
+  BrutalistDropdownMenuTrigger
 );

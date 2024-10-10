@@ -8,7 +8,7 @@ type ComponentMap<P> = {
 export function withThemeComponent<Props extends object>(
   modernComponent: React.ComponentType<Props>,
   retroComponent: React.ComponentType<Props>,
-  techComponent: React.ComponentType<Props>
+  brutalistComponent: React.ComponentType<Props>
 ) {
   return (props: Props) => {
     const { theme } = useTheme();
@@ -16,7 +16,7 @@ export function withThemeComponent<Props extends object>(
     const componentMap: ComponentMap<Props> = {
       modern: modernComponent,
       retro: retroComponent,
-      tech: techComponent,
+      brutalist: brutalistComponent,
     };
 
     const Component = componentMap[theme] || modernComponent;

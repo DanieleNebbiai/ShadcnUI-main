@@ -20,49 +20,53 @@ import {
   SelectSeparator as RetroSelectSeparator,
 } from "./Retro/select";
 import {
-  Select as TechSelect,
-  SelectGroup as TechSelectGroup,
-  SelectValue as TechSelectValue,
-  SelectTrigger as TechSelectTrigger,
-  SelectContent as TechSelectContent,
-  SelectLabel as TechSelectLabel,
-  SelectItem as TechSelectItem,
-  SelectSeparator as TechSelectSeparator,
-} from "./Tech/select";
+  Select as BrutalistSelect,
+  SelectGroup as BrutalistSelectGroup,
+  SelectValue as BrutalistSelectValue,
+  SelectTrigger as BrutalistSelectTrigger,
+  SelectContent as BrutalistSelectContent,
+  SelectLabel as BrutalistSelectLabel,
+  SelectItem as BrutalistSelectItem,
+  SelectSeparator as BrutalistSelectSeparator,
+} from "./Brutalist/select";
 
-export const Select = withThemeComponent(ModernSelect, RetroSelect, TechSelect);
+export const Select = withThemeComponent(
+  ModernSelect,
+  RetroSelect,
+  BrutalistSelect
+);
 export const SelectGroup = withThemeComponent(
   ModernSelectGroup,
   RetroSelectGroup,
-  TechSelectGroup
+  BrutalistSelectGroup
 );
 export const SelectValue = withThemeComponent(
   ModernSelectValue,
   RetroSelectValue,
-  TechSelectValue
+  BrutalistSelectValue
 );
 export const SelectTrigger = withThemeComponent(
   ModernSelectTrigger,
   RetroSelectTrigger,
-  TechSelectTrigger
+  BrutalistSelectTrigger
 );
 export const SelectContent = withThemeComponent(
   ModernSelectContent,
   RetroSelectContent,
-  TechSelectContent
+  BrutalistSelectContent
 );
 export const SelectLabel = withThemeComponent(
   ModernSelectLabel,
   RetroSelectLabel,
-  TechSelectLabel
+  BrutalistSelectLabel
 );
 export const SelectItem = withThemeComponent(
   ModernSelectItem,
   RetroSelectItem,
-  TechSelectItem
+  BrutalistSelectItem
 );
 export const SelectSeparator = withThemeComponent(
   ModernSelectSeparator,
   RetroSelectSeparator,
-  TechSelectSeparator
+  BrutalistSelectSeparator
 );

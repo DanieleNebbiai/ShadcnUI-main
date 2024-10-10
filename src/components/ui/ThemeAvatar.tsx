@@ -5,18 +5,22 @@ import { AvatarFallback as ModernAvatarFallback } from "./Shadcn/avatar";
 import { Avatar as RetroAvatar } from "./Retro/avatar";
 import { AvatarImage as RetroAvatarImage } from "./Retro/avatar";
 import { AvatarFallback as RetroAvatarFallback } from "./Retro/avatar";
-import { Avatar as TechAvatar } from "./Tech/avatar";
-import { AvatarImage as TechAvatarImage } from "./Tech/avatar";
-import { AvatarFallback as TechAvatarFallback } from "./Tech/avatar";
+import { Avatar as BrutalistAvatar } from "./Brutalist/avatar";
+import { AvatarImage as BrutalistAvatarImage } from "./Brutalist/avatar";
+import { AvatarFallback as BrutalistAvatarFallback } from "./Brutalist/avatar";
 
-export const Avatar = withThemeComponent(ModernAvatar, RetroAvatar, TechAvatar);
+export const Avatar = withThemeComponent(
+  ModernAvatar,
+  RetroAvatar,
+  BrutalistAvatar
+);
 export const AvatarImage = withThemeComponent(
   ModernAvatarImage,
   RetroAvatarImage,
-  TechAvatarImage
+  BrutalistAvatarImage
 );
 export const AvatarFallback = withThemeComponent(
   ModernAvatarFallback,
   RetroAvatarFallback,
-  TechAvatarFallback
+  BrutalistAvatarFallback
 );

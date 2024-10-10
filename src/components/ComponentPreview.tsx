@@ -1,12 +1,12 @@
 import React from "react";
-import { Button } from "@/components/ui/ThemeButton";
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
 } from "@/components/ui/ThemeCard";
-import { GithubIcon } from "lucide-react";
+import { CodeSnippet } from "@/components/CodeSnippet";
+import { Separator } from "@/components/ui/ThemeSeparator";
 
 interface ComponentPreviewProps {
   componentName: string;
@@ -17,9 +17,9 @@ interface ComponentPreviewProps {
 export function ComponentPreview({
   componentName,
   PreviewComponent,
-  theme = "default", // Provide a default theme
+  theme = "default",
 }: ComponentPreviewProps) {
-  const githubUrl = `https://github.com/DanieleNebbiai/ShadcnUI/blob/main/src/components/ui/${theme.toLowerCase()}/${componentName.toLowerCase()}-${theme.toLowerCase()}.tsx`;
+  const npxCommand = ` citrusui-${theme.toLowerCase()}@latest add ${componentName.toLowerCase()}`;
 
   return (
     <Card
@@ -28,23 +28,18 @@ export function ComponentPreview({
     >
       <CardHeader className="flex flex-row items-center justify-between">
         <CardTitle>{componentName}</CardTitle>
-        <Button
-          variant="outline"
-          size="default"
-          onClick={() => window.open(githubUrl, "_blank")}
-          className="flex items-center space-x-2"
-        >
-          <GithubIcon className="h-4 w-4" />
-          <span>View on GitHub</span>
-        </Button>
       </CardHeader>
-      <CardContent>
+      <CardContent className="space-y-4">
+        <div className="mb-4">
+          <CodeSnippet span="npx" code={npxCommand} />
+        </div>
         <div className="border rounded-md flex items-center justify-center h-96 p-4 bg-white">
           <div className="items-center justify-center">
             <PreviewComponent />
           </div>
         </div>
       </CardContent>
+      <Separator />
     </Card>
   );
 }

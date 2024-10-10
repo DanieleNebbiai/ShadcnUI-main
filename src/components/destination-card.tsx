@@ -1,13 +1,6 @@
 "use client";
 
-import {
-  Heart,
-  MapPin,
-  Star,
-  Navigation,
-  Home,
-  DollarSign,
-} from "lucide-react";
+import { Heart, MapPin, Star, DollarSign } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -39,8 +32,6 @@ export function DestinationCardComponent({
     "/placeholder.svg?height=60&width=60",
   ],
   rating = 4.8,
-  distance = 3000,
-  available = 108,
   price = 250,
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est vel odio elementum non id venenatis, elementum. Enim augue velit tristique eu viverra. Massa.",
 }: DestinationCardProps) {
@@ -84,12 +75,6 @@ export function DestinationCardComponent({
         <div className="flex justify-between text-sm mb-3">
           <span className="flex items-center">
             <Star className="w-4 h-4 text-yellow-400 mr-1" /> {rating} (32k)
-          </span>
-          <span className="flex items-center">
-            <Navigation className="w-4 h-4 mr-1" /> {distance} km
-          </span>
-          <span className="flex items-center">
-            <Home className="w-4 h-4 mr-1" /> {available} available
           </span>
         </div>
         <Typography variant="p" className="line-clamp-3">

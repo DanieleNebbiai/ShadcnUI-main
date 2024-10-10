@@ -20,49 +20,53 @@ import {
   TableCaption as RetroTableCaption,
 } from "./Retro/table";
 import {
-  Table as TechTable,
-  TableHeader as TechTableHeader,
-  TableBody as TechTableBody,
-  TableFooter as TechTableFooter,
-  TableHead as TechTableHead,
-  TableRow as TechTableRow,
-  TableCell as TechTableCell,
-  TableCaption as TechTableCaption,
-} from "./Tech/table";
+  Table as BrutalistTable,
+  TableHeader as BrutalistTableHeader,
+  TableBody as BrutalistTableBody,
+  TableFooter as BrutalistTableFooter,
+  TableHead as BrutalistTableHead,
+  TableRow as BrutalistTableRow,
+  TableCell as BrutalistTableCell,
+  TableCaption as BrutalistTableCaption,
+} from "./Brutalist/table";
 
-export const Table = withThemeComponent(ModernTable, RetroTable, TechTable);
+export const Table = withThemeComponent(
+  ModernTable,
+  RetroTable,
+  BrutalistTable
+);
 export const TableHeader = withThemeComponent(
   ModernTableHeader,
   RetroTableHeader,
-  TechTableHeader
+  BrutalistTableHeader
 );
 export const TableBody = withThemeComponent(
   ModernTableBody,
   RetroTableBody,
-  TechTableBody
+  BrutalistTableBody
 );
 export const TableFooter = withThemeComponent(
   ModernTableFooter,
   RetroTableFooter,
-  TechTableFooter
+  BrutalistTableFooter
 );
 export const TableHead = withThemeComponent(
   ModernTableHead,
   RetroTableHead,
-  TechTableHead
+  BrutalistTableHead
 );
 export const TableRow = withThemeComponent(
   ModernTableRow,
   RetroTableRow,
-  TechTableRow
+  BrutalistTableRow
 );
 export const TableCell = withThemeComponent(
   ModernTableCell,
   RetroTableCell,
-  TechTableCell
+  BrutalistTableCell
 );
 export const TableCaption = withThemeComponent(
   ModernTableCaption,
   RetroTableCaption,
-  TechTableCaption
+  BrutalistTableCaption
 );

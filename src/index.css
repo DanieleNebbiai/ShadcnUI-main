@@ -59,10 +59,10 @@
     --chart-4: 30 80% 50%;
     --chart-5: 0 80% 50%;
     --radius: 0.5rem;
-    font-family: "Roboto Mono", monospace; /* Add this line */
+    font-family: "Roboto Mono", sans-serif;
   }
 
-  .theme-tech {
+  .theme-brutalist {
     --background: 54 97% 63%;
     --foreground: 0 0% 0%;
     --card: 0 0% 100%;
@@ -91,5 +91,6 @@
     --brutalist-grid: 20px;
     --brutalist-border: 4px solid var(--border);
     --brutalist-shadow: 5px 5px 0 var(--border);
+    font-family: "Oswald", sans-serif;
   }
 }

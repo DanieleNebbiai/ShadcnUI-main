@@ -8,17 +8,17 @@ import {
   ScrollBar as RetroScrollBar,
 } from "./Retro/scroll-area";
 import {
-  ScrollArea as TechScrollArea,
-  ScrollBar as TechScrollBar,
-} from "./Tech/scroll-area";
+  ScrollArea as BrutalistScrollArea,
+  ScrollBar as BrutalistScrollBar,
+} from "./Brutalist/scroll-area";
 
 export const ScrollArea = withThemeComponent(
   ModernScrollArea,
   RetroScrollArea,
-  TechScrollArea
+  BrutalistScrollArea
 );
 export const ScrollBar = withThemeComponent(
   ModernScrollBar,
   RetroScrollBar,
-  TechScrollBar
+  BrutalistScrollBar
 );

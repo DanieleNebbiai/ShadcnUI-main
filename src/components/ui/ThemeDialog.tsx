@@ -18,43 +18,47 @@ import {
   DialogTrigger as RetroDialogTrigger,
 } from "./Retro/dialog";
 import {
-  Dialog as TechDialog,
-  DialogContent as TechDialogContent,
-  DialogDescription as TechDialogDescription,
-  DialogFooter as TechDialogFooter,
-  DialogHeader as TechDialogHeader,
-  DialogTitle as TechDialogTitle,
-  DialogTrigger as TechDialogTrigger,
-} from "./Tech/dialog";
+  Dialog as BrutalistDialog,
+  DialogContent as BrutalistDialogContent,
+  DialogDescription as BrutalistDialogDescription,
+  DialogFooter as BrutalistDialogFooter,
+  DialogHeader as BrutalistDialogHeader,
+  DialogTitle as BrutalistDialogTitle,
+  DialogTrigger as BrutalistDialogTrigger,
+} from "./Brutalist/dialog";
 
-export const Dialog = withThemeComponent(ModernDialog, RetroDialog, TechDialog);
+export const Dialog = withThemeComponent(
+  ModernDialog,
+  RetroDialog,
+  BrutalistDialog
+);
 export const DialogContent = withThemeComponent(
   ModernDialogContent,
   RetroDialogContent,
-  TechDialogContent
+  BrutalistDialogContent
 );
 export const DialogDescription = withThemeComponent(
   ModernDialogDescription,
   RetroDialogDescription,
-  TechDialogDescription
+  BrutalistDialogDescription
 );
 export const DialogFooter = withThemeComponent(
   ModernDialogFooter,
   RetroDialogFooter,
-  TechDialogFooter
+  BrutalistDialogFooter
 );
 export const DialogHeader = withThemeComponent(
   ModernDialogHeader,
   RetroDialogHeader,
-  TechDialogHeader
+  BrutalistDialogHeader
 );
 export const DialogTitle = withThemeComponent(
   ModernDialogTitle,
   RetroDialogTitle,
-  TechDialogTitle
+  BrutalistDialogTitle
 );
 export const DialogTrigger = withThemeComponent(
   ModernDialogTrigger,
   RetroDialogTrigger,
-  TechDialogTrigger
+  BrutalistDialogTrigger
 );

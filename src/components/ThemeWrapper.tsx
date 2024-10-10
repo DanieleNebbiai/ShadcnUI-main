@@ -12,7 +12,7 @@ export function ThemeWrapper({ children }: ThemeWrapperProps) {
     document.documentElement.classList.remove(
       "theme-modern",
       "theme-retro",
-      "theme-tech"
+      "theme-brutalist"
     );
 
     if (theme !== "modern") {

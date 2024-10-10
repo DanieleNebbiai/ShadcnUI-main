@@ -12,32 +12,32 @@ import {
   AccordionContent as RetroAccordionContent,
 } from "./Retro/accordion";
 import {
-  Accordion as TechAccordion,
-  AccordionItem as TechAccordionItem,
-  AccordionTrigger as TechAccordionTrigger,
-  AccordionContent as TechAccordionContent,
-} from "./Tech/accordion";
+  Accordion as BrutalistAccordion,
+  AccordionItem as BrutalistAccordionItem,
+  AccordionTrigger as BrutalistAccordionTrigger,
+  AccordionContent as BrutalistAccordionContent,
+} from "./Brutalist/accordion";
 
 export const Accordion = withThemeComponent(
   ModernAccordion,
   RetroAccordion,
-  TechAccordion
+  BrutalistAccordion
 );
 
 export const AccordionItem = withThemeComponent(
   ModernAccordionItem,
   RetroAccordionItem,
-  TechAccordionItem
+  BrutalistAccordionItem
 );
 
 export const AccordionTrigger = withThemeComponent(
   ModernAccordionTrigger,
   RetroAccordionTrigger,
-  TechAccordionTrigger
+  BrutalistAccordionTrigger
 );
 
 export const AccordionContent = withThemeComponent(
   ModernAccordionContent,
   RetroAccordionContent,
-  TechAccordionContent
+  BrutalistAccordionContent
 );
